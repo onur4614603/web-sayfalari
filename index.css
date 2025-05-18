@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+::selection {
+  color: #000;
+  background-color: #c8e6c9;
+}
+
+.hero h1 {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.baslik {
+  background: linear-gradient(180deg, #74ebd5 0%, #acb6e5 70%, #ffffff 100%);
+  padding: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.box h2 {
+  margin-top: 0;
+  color: #4caf50;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.gonder {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+.gonder:hover {
+  background-color: #45a049;
+}
+
+.gonder:active {
+  transform: scale(0.9);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #888;
+}
+details {
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px lightgray;
+}
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+}
